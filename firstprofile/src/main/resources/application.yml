@@ -1,0 +1,6 @@
+# spring:
+#     profiles:
+#         active: qa
+code:
+    service:
+        format: defaultemail

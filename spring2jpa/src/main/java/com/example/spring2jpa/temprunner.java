@@ -9,4 +9,9 @@ public class temprunner implements CommandLineRunner {
     @Autowired
     private Crud foo;
 
+    @Override
+    public void run(String... args) throws Exception {
+    Employee e1=   foo.save(new Employee(10,"a",3.3));
+    System.out.println(e1);}
+
 }
